@@ -1,0 +1,52 @@
+body {
+    margin: 60px auto;
+    width: 30%;
+}
+
+#title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+#college-name {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 5.5px;
+    color: rgb(0, 112, 204);
+    margin-bottom: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e6e6e6;
+    margin-top: 2px;
+}
+
+#paragraph {
+    font-size: 1.2em;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+#pre-list-line {
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+li {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin: 60px auto;
+}
