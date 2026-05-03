@@ -1,6 +1,11 @@
 body {
     margin: 60px auto;
     width: 30%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 135px;
+    padding-right: 135px;
+    border: 1px solid black;
 }
 
 #title {
@@ -17,7 +22,7 @@ body {
     font-size: 1em;
     font-weight: normal;
     letter-spacing: 5.5px;
-    color: rgb(0, 112, 204);
+    color: #1f75ae;
     margin-bottom: 0;
 }
 
