@@ -47,12 +47,12 @@ articles.forEach(book => {
 const article = document.createElement('article');
 article.className = 'blog-post';
     let html = `
-                <p aria-label="date posted">${book.date}</p>
-                <p aria-label="age range">${book.ages}</p>
-                <p aria-label="genre">${book.genre}</p>
-                <p aria-label="rated ${book.stars/length} out of 5 stars" role="img">${book.stars}</p>
-                <h2>${book.title}</h2>
-                <img src=${book.imgSrc} alt="${book.imgAlt}>
+                <p class="date" aria-label="date posted">${book.date}</p>
+                <p class="age" aria-label="age range">${book.ages}</p>
+                <p class="genre" aria-label="genre">${book.genre}</p>
+                <p class="rating" aria-label="rated ${book.stars/length} out of 5 stars" role="img">${book.stars}</p>
+                <h2 class="title">${book.title}</h2>
+                <img class="cover" src=${book.imgSrc} alt="${book.imgAlt}>
                 <p class="desc">${book.description}</p>
                 `;
 
