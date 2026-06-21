@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Coming+Soon&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: Amatic SC;
+}
+
+#site-name {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1em;
+}
+
+#logo {
+    width: 125px;
+    height: 125px;
+    align-self: center;
+}
+
+#title {
+    font-size: 7em;
+}
+
+#search-img {
+    width: 25px;
+    height: 25px;
+}
+form {
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+input {
+    width: 425px;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    flex: 1 1 350px;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
